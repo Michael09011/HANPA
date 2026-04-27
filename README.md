@@ -12,6 +12,8 @@
   <a href="https://github.com/Michael09011/HANPA/releases"><img src="https://img.shields.io/github/v/release/Michael09011/HANPA?style=for-the-badge" alt="Latest release" /></a>
   <a href="https://github.com/Michael09011/HANPA/issues"><img src="https://img.shields.io/github/issues/Michael09011/HANPA?style=for-the-badge" alt="GitHub issues" /></a>
   <a href="https://github.com/Michael09011/HANPA/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Michael09011/HANPA?style=for-the-badge" alt="License: MIT" /></a>
+  <a href="https://www.apple.com/macos/"><img src="https://img.shields.io/badge/Platform-macOS-000000?style=for-the-badge&logo=apple" alt="macOS" /></a>
+  <img src="https://img.shields.io/badge/Architecture-Intel_x64-007ACC?style=for-the-badge" alt="Intel x64" />
 </p>
 
 HANPA는 Electron과 `rhwp` 오픈소스 HWP 에디터 엔진을 기반으로 만든 데스크톱 HWP 에디터입니다.
@@ -57,6 +59,15 @@ HANPA는 [edwardkim/rhwp](https://github.com/edwardkim/rhwp)의 HWP 에디터 �
 - `public/` — 정적 자산 및 샘플
 - `third_party/rhwp/` — HWP 에디터 코어 및 지원 패키지
 - `dist_electron/` — Electron 빌드 출력
+
+## 문서
+
+- `README.md` — 프로젝트 개요
+- `CONTRIBUTING.md` — 기여 가이드
+- `CODE_OF_CONDUCT.md` — 행동 강령
+- `SECURITY.md` — 보안 보고 안내
+- `.github/ISSUE_TEMPLATE/` — 버그/기능 제안 템플릿
+- `third_party/rhwp/mydocs/tech/` — 기술 설계 및 엔진 연구 문서
 
 ## 라이선스
 
