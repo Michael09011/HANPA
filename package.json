@@ -1,0 +1,54 @@
+{
+  "name": "hanpa-studio",
+  "version": "1.0.0",
+  "description": "HANPA HWP Office App built on the rhwp editor",
+  "author": "Michael09011",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Michael09011/HANPA.git"
+  },
+  "homepage": "https://github.com/Michael09011/HANPA",
+  "type": "module",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "start": "electron .",
+    "electron:dev": "NODE_ENV=development electron .",
+    "electron:build": "npm run build && electron-builder",
+    "e2e": "node e2e/text-flow.test.mjs"
+  },
+  "dependencies": {
+    "@rhwp/core": "^0.7.6"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.40",
+    "electron": "^41.3.0",
+    "electron-builder": "^24.6.0",
+    "puppeteer-core": "^24.40.0",
+    "typescript": "^6.0.2",
+    "vite": "^8.0.8"
+  },
+  "build": {
+    "appId": "com.hanpa.app",
+    "productName": "HANPA",
+    "icon": "build/hanpa-icon.icns",
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "package.json"
+    ],
+    "mac": {
+      "target": [
+        "dmg",
+        "zip"
+      ],
+      "category": "public.app-category.productivity"
+    },
+    "directories": {
+      "output": "dist_electron"
+    }
+  }
+}

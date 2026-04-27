@@ -1,0 +1,62 @@
+# HANPA
+
+<p align="center">
+  <img src="public/hanpa-icon.png" width="128" alt="HANPA icon" />
+</p>
+
+<p align="center">
+  <strong>HANPA</strong> — Electron 기반 HWP 데스크톱 에디터
+</p>
+
+<p align="center">
+  <a href="https://github.com/Michael09011/HANPA"><img src="https://img.shields.io/github/stars/Michael09011/HANPA?style=for-the-badge" alt="GitHub stars" /></a>
+  <a href="https://github.com/Michael09011/HANPA/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Michael09011/HANPA/ci.yml?style=for-the-badge&label=CI" alt="CI" /></a>
+  <a href="https://github.com/Michael09011/HANPA/issues"><img src="https://img.shields.io/github/issues/Michael09011/HANPA?style=for-the-badge" alt="GitHub issues" /></a>
+  <a href="https://github.com/Michael09011/HANPA/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Michael09011/HANPA?style=for-the-badge" alt="License: MIT" /></a>
+</p>
+
+HANPA는 Electron과 `rhwp` 오픈소스 HWP 에디터 엔진을 기반으로 만든 데스크톱 HWP 에디터입니다.
+
+## 주요 기술
+
+- Electron
+- Vite
+- TypeScript
+- `@rhwp/core` ([edwardkim/rhwp](https://github.com/edwardkim/rhwp) 기반 HWP 에디터)
+
+## 주요 기능
+
+- 네이티브 데스크톱 HWP/HWPX 편집 경험
+- 커맨드 팔레트, 툴바, 메뉴 통합
+- 종료 시 저장 확인 대화상자
+- 폰트 등록 지연으로 빠른 시작
+- `electron-builder`를 이용한 앱 번들 빌드 지원
+
+## 호환성
+
+- 현재 빌드는 macOS 인텔(x64) 아키텍처를 대상으로 합니다.
+- Apple 실리콘(macOS arm64)에서는 Rosetta 2를 통해 실행할 수 있지만, 네이티브 arm64 빌드는 아직 지원하지 않습니다.
+
+## 사용 방법
+
+```bash
+npm install
+npm run build
+npm start
+```
+
+## HWP 에디터 출처
+
+HANPA는 [edwardkim/rhwp](https://github.com/edwardkim/rhwp)의 HWP 에디터 구현을 사용합니다. 에디터 엔진은 `@rhwp/core`로 제공되며 HANPA는 데스크톱 래퍼, 네이티브 메뉴, Electron 통합을 추가합니다.
+
+## 프로젝트 구조
+
+- `electron/` — Electron 메인 및 프리로드 프로세스
+- `src/` — 애플리케이션 소스 코드 및 UI
+- `public/` — 정적 자산 및 샘플
+- `third_party/rhwp/` — HWP 에디터 코어 및 지원 패키지
+- `dist_electron/` — Electron 빌드 출력
+
+## 라이선스
+
+MIT
