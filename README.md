@@ -16,7 +16,7 @@
   <img src="https://img.shields.io/badge/Architecture-Intel_x64-007ACC?style=for-the-badge" alt="Intel x64" />
 </p>
 
-HANPA는 Electron과 `rhwp` 오픈소스 HWP 에디터 엔진을 기반으로 만든 데스크톱 HWP 에디터입니다.
+HANPA는 Electron과 `rhwp` 오픈소스 HWP 에디터 엔진을 기반으로 만든 데스크톱 HWP 앱입니다.
 
 ## 주요 기술
 
