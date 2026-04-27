@@ -9,8 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Michael09011/HANPA"><img src="https://img.shields.io/github/stars/Michael09011/HANPA?style=for-the-badge" alt="GitHub stars" /></a>
-  <a href="https://github.com/Michael09011/HANPA/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Michael09011/HANPA/ci.yml?style=for-the-badge&label=CI" alt="CI" /></a>
+  <a href="https://github.com/Michael09011/HANPA/releases"><img src="https://img.shields.io/github/v/release/Michael09011/HANPA?style=for-the-badge" alt="Latest release" /></a>
   <a href="https://github.com/Michael09011/HANPA/issues"><img src="https://img.shields.io/github/issues/Michael09011/HANPA?style=for-the-badge" alt="GitHub issues" /></a>
   <a href="https://github.com/Michael09011/HANPA/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Michael09011/HANPA?style=for-the-badge" alt="License: MIT" /></a>
 </p>
@@ -19,10 +18,12 @@ HANPA는 Electron과 `rhwp` 오픈소스 HWP 에디터 엔진을 기반으로 �
 
 ## 주요 기술
 
-- Electron
-- Vite
-- TypeScript
-- `@rhwp/core` ([edwardkim/rhwp](https://github.com/edwardkim/rhwp) 기반 HWP 에디터)
+<p align="center">
+  <a href="https://www.electronjs.org/"><img src="https://img.shields.io/badge/Electron-Desktop%20App-47848F?style=for-the-badge&logo=electron" alt="Electron" /></a>
+  <a href="https://vitejs.dev/"><img src="https://img.shields.io/badge/Vite-Frontend%20Tooling-646CFF?style=for-the-badge&logo=vite" alt="Vite" /></a>
+  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-Strongly%20Typed-3178C6?style=for-the-badge&logo=typescript" alt="TypeScript" /></a>
+  <a href="https://www.npmjs.com/package/@rhwp/core"><img src="https://img.shields.io/badge/@rhwp/core-HWP%20Engine-339933?style=for-the-badge&logo=npm" alt="@rhwp/core" /></a>
+</p>
 
 ## 주요 기능
 
