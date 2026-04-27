@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>HANPA</strong> — Electron 기반 HWP 데스크톱 에디터
+  <strong>HANPA</strong> — Electron 기반 HWP 데스크톱 APP
 </p>
 
 <p align="center">
